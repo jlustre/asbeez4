@@ -34,7 +34,13 @@ php artisan serve
     npm install @heroicons/react
 12. install react-icons
     npm install react-icons --save
-
+13. install tailwindcss forms
+    npm i @tailwindcss/forms
+14. include the following to tailwind.config.cjs
+    plugins: [require("@tailwindcss/forms")],
+15. install react-router-dom
+    npm i react-router-dom
+16. Create route.js file under src folder
 
 
 
