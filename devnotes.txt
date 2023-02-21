@@ -1,0 +1,44 @@
+1. Install Laravel
+   composer create-project laravel/laravel asbeez
+2. Go to asbeez directory then modify .env file to include your database info
+    DB_DATABASE=asbeez_db
+    DB_USERNAME=jlustre
+    DB_PASSWORD=jocolus7
+3. Test it using
+php artisan serve
+4. Create a new react app using vite
+    npm create vite@latest
+    use react as the project name and react and javascript
+5. run the following:
+    cd react
+    npm install
+    npm run dev
+6. modify package.json under the react folder and enter the following:
+    "scripts": {
+        "dev": "vite --port=3000",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+7. clean up the react folder
+    delete app.css, react logo from assets, remove all inside App class of App.js
+8. Install tailwind css inside react folder
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+9. modify tailwind.config.cjs by including these codes
+   content: ["./index.html", "./src/**/*.{html,js,jsx}", "*.{html,js,jsx}"],
+10. delete content of index.css and put the following
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+11. install heroicons (optional)
+    npm install @heroicons/react
+12. install react-icons
+    npm install react-icons --save
+
+
+
+
+
+
+
+
