@@ -1,3 +1,4 @@
+Based on https://www.youtube.com/watch?v=bHRe5XNP5l8&t=5123s
 1. Install Laravel
    composer create-project laravel/laravel asbeez
 2. Go to asbeez directory then modify .env file to include your database info
@@ -41,6 +42,8 @@ php artisan serve
 15. install react-router-dom
     npm i react-router-dom
 16. Create route.js file under src folder
+17. Create contexts folder and ContextProvider file
+
 
 
 
